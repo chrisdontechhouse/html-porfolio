@@ -1,0 +1,157 @@
+.body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+    top: 0px;
+    background-color: lightseagreen;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-link>.left-side>div {
+    display: flex;
+    margin-left: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: rgb(24, 78, 75);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+/*porfoilo style*/
+.content-wrapper {
+    position: relative;
+
+}
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-item-wrapper:hover {
+    transition: 1s;
+    filter: brightness(5%)
+}
+
+.porfolio-img-background {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+    filter: invert(100%);
+    opacity: 75%;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+    color: lightseagreen;
+    font-weight: 800px;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600px;
+    color: black;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%)
+}
+
+
+.container-about {
+    display: flex;
+    background-color: rgb(226, 215, 215);
+
+}
+
+.wrapper-container {
+    display: block;
+}
+
+.image-about img {
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-color: antiquewhite;
+    border-radius: none;
+    border-radius: 5px;
+}
+
+.write-up-about {
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.write-up-about h1 {
+    font-weight: 20px;
+    color: rgb(62, 190, 147);
+
+}
+
+.write-up-about p {
+    font-size: 30px;
+    font-weight: 554;
+    color: rgb(48, 132, 104);
+
+}

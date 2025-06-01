@@ -1,0 +1,104 @@
+.body {
+  background-color: rgb(0, 0, 0);
+}
+
+button {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+
+}
+
+.guessdiv {
+  background-color: rgb(245, 236, 236);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-items {
+  font-size: 55px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.number-div {
+  font-size: 30px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#inbox {
+  padding-left: 20px;
+  padding-top: 30px;
+  border: 2px;
+  border-radius: 3px;
+}
+
+#guess {
+  display: flex;
+  justify-content: center;
+  margin-left: 315px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 100;
+  font-size: 15px;
+  border-radius: 5px;
+
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#attempts {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  text-align: center;
+}
+
+/* No need to change anythign in here! */
+.done {
+  color: grey;
+  text-decoration: line-through;
+}
+
+
+/*
+<h2>
+<span id="rainbow">R</span>
+<span id="orange">A</span>
+<span id="yellow">I</span>
+<span id="rainbowyellow">N</span>
+<span id="rainbowgreen">B</span>
+<span id="rainbowblue">O</span>
+<span id="rainbowindigo">W</span>
+</h2>
+*/
+li {
+  background-color: #B10DC9;
+}
+
+.highlight {
+  background-color: #7FDBFF;
+}

@@ -1,0 +1,143 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="Chriscross" content="My Site View" />
+  <link rel="stylesheet" href="pratices.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <title>PRATICE JAVASCRIPT</title>
+</head>
+
+<body>
+  <h1>Pickles Are <span>Delicious</span></h1>
+
+  <button onclick="alert('You are welcome')">hello</button>
+  <br>
+  <button onclick="updateCartQuatity()">Show Quantity</button>
+  <button onclick="quantityChart += qqJJHHH1; console.log(`Cart quantity: ${quantityChart}`)">
+    Add
+    Chart</button>
+  <button onclick="quantityChart += 2; console.log(`Cart quantity: ${quantityChart}`)">+2</button>
+  <button onclick="quantityChart += 3; console.log(`Cart quantity: ${quantityChart}`)">+3</button>
+  <button onclick="quantityChart = 0; console.log('cart Reset'); console.log(`Cart quantity: ${quantityChart}`)">Reset
+    Chart</button>
+
+
+  <p class="button-p">
+    <button onclick="updateCalculation()">1</button>
+    <button onclick="calculation+=2; console.log(`${calculation}`)">2</button>
+    <button onclick="calculation+=3; console.log(`${calculation}`)">3</button>
+    <button onclick="calculation+=4; console.log(`${calculation}`)">4</button>
+    <button onclick="calculation+=5; console.log(`${calculation}`)">5</button>
+    <button onclick="calculation+=6; console.log(`${calculation}`)">6</button>
+    <button onclick="calculation+=7; console.log(`${calculation}`)">7</button>
+    <button onclick="calculation+=8; console.log(`${calculation}`)">8</button>
+    <button onclick="calculation+=9; console.log(`${calculation}`)">9</button>
+    <button onclick="calculation+=0; console.log(`${calculation}`)">0</button>
+    <button onclick="calculation += ' + ' ; console.log(`${calculation}`)">+</button>
+    <button onclick="calculation += ' / ' ; console.log(`${calculation}`)">/</button>
+    <button onclick="calculation += ' * ' ; console.log(`${calculation}`)">*</button>
+    <button onclick="calculation = eval(calculation); console.log(`${calculation}`)">=</button>
+  </p>
+
+  <P>
+    <button onclick="playerGame('rock')">Rock</button>
+
+    <button onclick="playerGame('scissors')">Scissors</button>
+
+    <button onclick="playerGame('paper')">Paper</button>
+  </P>
+
+
+  <div>
+    <button onclick="hourMeter()">hour</button>
+  </div>
+
+  <div>
+    <button onclick="ageMeter()">Age</button>
+  </div>
+
+
+  <div>
+    <button onclick="
+    const randomNumbers = Math.random();
+
+    let guess = '';
+
+    if (randomNumbers < 0.5) {
+            guess = 'Heads';
+          } else {
+            guess = 'Tails';
+          }
+       let resultMove = '';   
+      if(guess === 'Heads'){
+        resultMove = 'You Win';
+      }else{
+        resultMove = 'You loss';
+      }
+
+
+    //console.log(resultMove);
+    alert(`${resultMove}`);
+    ">Guess</button>
+  </div>
+  <div class="guessdiv">
+    <div class="guess-items-class">
+      <div class="game-items">Number Guessing Game</div>
+      <div class="number-div">Guess the number 1 and 100</div>
+      <div class="input-div">
+        <input id="inbox" type="number" name="quantity" min="1" max="100">
+      </div>
+      <button id="guess" onclick="guessButton()">Submit</button>
+      <div id="result"></div>
+      <div id="attempts"></div>
+    </div>
+  </div>
+
+  <div>
+    <h1>Garden Todos</h1>
+    <input type="text" placeholder="New Todo">
+    <ul>
+      <li>Start Seedlings</li>
+      <li class="done">Deadhead Zinnias</li>
+      <li class="done">Water Tomatoes</li>
+      <li class="done">Harvest Potatoes</li>
+      <li>Prune Roses</li>
+    </ul>
+    <label>Delete All</label>
+    <input type="checkbox" id="scales" name="scales" checked>
+  </div>
+
+  <div id="container">
+    <h1>I &hearts; Trees</h1>
+    <img id="imgcontainer"
+      src="https://images.unsplash.com/photo-1596328546171-77e37b5e8b3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80"
+      alt="">
+  </div>
+
+  <h2>
+    <span>R</span>
+    <span>A</span>
+    <span>I</span>
+    <span>N</span>
+    <span>B</span>
+    <span>O</span>
+    <span>W</span>
+  </h2>
+
+
+  <ul>
+    <li>Hello</li>
+    <li class="highlight">Hello</li>
+    <li>Hello</li>
+    <li>Hello</li>
+    <li class="highlight">Hello</li>
+    <li>Hello</li>
+  </ul>
+
+  </html>
+
+  <script type="text/javascript" src="pratices.js"></script>
+  <script type="text/javascript" src="html.js"></script>
+</body>
